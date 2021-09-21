@@ -66,13 +66,22 @@ header img{
     width: 350px;
     display: block;
     margin: auto;
+    border-radius: 25px;
 }
 
 section{
     text-align: center;
-    height: 120px;
-    padding: 2rem 0;
+    padding: 3rem 0;
     border-radius: 20px;
+}
+
+section .section-content{
+    margin: auto;
+    height: 110px;
+}
+
+section p{
+    color: var(--dark-gray);
 }
 
 .off-white{
@@ -86,6 +95,11 @@ section a{
     color: var(--secondary-color);
     border-radius: 25px;
     transition: 0.3s;
+}
+
+.secondary-button{
+    background: var(--secondary-color);
+    color: white;
 }
 
 section a:hover{
@@ -104,8 +118,7 @@ section .tech{
 footer{
     background: url(../img/footer-img.png) no-repeat center center;
     background-size: cover;
-    height: 100px;
-    padding: 5rem;
+    padding: 1rem;
     border-radius: 20px;
 }
 
