@@ -1,0 +1,133 @@
+body{
+    font-family: 'Merriweather', sans-serif;
+    margin: 0 3rem;
+}
+
+:root{
+    --primary-color: #43dbfc;
+    --secondary-color: #10B981;
+    --dark-gray: #444444;
+    --off-white: #F3F4F6;
+}
+
+nav{
+    background: var(--secondary-color);
+    padding: 2px;
+    border-radius: 25px 5px 25px 5px;
+    color: white;
+}
+
+nav h1{
+    padding-inline-start: 15px;
+}
+
+nav ol{
+    text-align: right;
+    padding-inline-end: 15px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff
+}
+
+nav a.active{
+    color: #ffffff;
+}
+
+nav .nav-link{
+    font-weight: 700;
+    color: rgba(243, 243, 243, 0.938);
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: var(--dark-gray);
+}
+
+header span{
+    color: var(--secondary-color);
+}
+
+header img{
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+section{
+    text-align: center;
+    height: 120px;
+    padding: 2rem 0;
+    border-radius: 20px;
+}
+
+.off-white{
+    background: var(--off-white);
+}
+
+section a{
+    text-decoration: none;
+    border: 2px solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    color: var(--secondary-color);
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+section a:hover{
+    background: var(--primary-color);
+    color: white;
+}
+
+section .tech{
+    color: white;
+    background: var(--secondary-color);
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+footer{
+    background: url(../img/footer-img.png) no-repeat center center;
+    background-size: cover;
+    height: 100px;
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer ol{
+    text-align: center;
+}
+
+footer ol li{
+    list-style: none;
+    display: inline;
+}
+
+footer ol li a{
+    text-decoration: none;
+    color: white;
+    background: var(--secondary-color);
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
