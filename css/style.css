@@ -78,12 +78,12 @@ section{
 
 section .section-content{
     margin: auto;
-    height: 110px;
     padding: 0 1rem;
 }
 
 section p{
     color: var(--dark-gray);
+    margin-bottom: 2rem;
 }
 
 .off-white{
